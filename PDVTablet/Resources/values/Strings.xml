@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">PDVTablet</string>
+
+	<!-- firstRun -->
+	<string name="firstTexto">Esta é a primeira vez que você inicia o PDVTablet. Para configurar o aplicativo clique em "Próximo".</string>
+	<string name="firstTexto2">Por favor aguarde, a PDVTablet será iniciada assim que todo o processo for concluído.</string>
+	<string name="firstButton">Próximo</string>
 </resources>

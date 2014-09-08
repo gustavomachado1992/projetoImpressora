@@ -41,7 +41,19 @@ namespace PDVTablet
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int buttonStyle1 = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int buttonStyle2 = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int buttonStyle3 = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Icon = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int standardNewButton = 2130837508;
 			
 			static Drawable()
 			{
@@ -56,8 +68,14 @@ namespace PDVTablet
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int button1 = 2131034114;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int linearLayout1 = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int textView1 = 2131034113;
 			
 			static Id()
 			{
@@ -88,11 +106,17 @@ namespace PDVTablet
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
-			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int app_name = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int firstButton = 2130968579;
+			
+			// aapt resource value: 0x7f040001
+			public const int firstTexto = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int firstTexto2 = 2130968578;
 			
 			static String()
 			{
