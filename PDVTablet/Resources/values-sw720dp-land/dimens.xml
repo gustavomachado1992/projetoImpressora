@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<resources>
+	
+	<dimen name="container_logoBottom">0dp</dimen>
+
+	<dimen name="containe_height_cabecalho">20dp</dimen>
+
+	<dimen name="container_imagem">10dp</dimen>
+
+	   <!-- Top  -->
+	<dimen name="container_CfgmarginTop">20dp</dimen>
+	<dimen name="container_CfgmarginRight">100dp</dimen>
+	<dimen name="container_CfgmarginBottom">100dp</dimen>
+    <dimen name="container_CfgmarginLeft">100dp</dimen>
+	<dimen name="container_mainmarginBottom">0dp</dimen>
+
+</resources>

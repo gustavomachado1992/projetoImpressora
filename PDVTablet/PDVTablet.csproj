@@ -49,6 +49,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="firs.cs" />
     <Compile Include="telaLogin.cs" />
+    <Compile Include="telaCfg.cs" />
+    <Compile Include="telaIndex.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -65,16 +67,24 @@
     <AndroidResource Include="Resources\drawable\buttonStyle1.xml" />
     <AndroidResource Include="Resources\drawable\buttonStyle2.xml" />
     <AndroidResource Include="Resources\drawable\buttonStyle3.xml" />
-    <AndroidResource Include="Resources\layout\telaLogin.xml" />
     <AndroidResource Include="Resources\drawable\brasystemcortransp.png" />
     <AndroidResource Include="Resources\drawable\brasystem.png" />
     <AndroidResource Include="Resources\layout-sw600dp\telaLogin.xml" />
     <AndroidResource Include="Resources\layout-sw800dp\telaLogin.xml" />
     <AndroidResource Include="Resources\drawable\icactionsettings.png" />
+    <AndroidResource Include="Resources\layout\telaLogin.axml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw600dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw720dp-land\dimens.xml" />
+    <AndroidResource Include="Resources\drawable\bordaPretaTexto.xml" />
+    <AndroidResource Include="Resources\layout\telaCfg.axml" />
+    <AndroidResource Include="Resources\layout\TelaIndex.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\layout-sw600dp\" />
     <Folder Include="Resources\layout-sw800dp\" />
+    <Folder Include="Resources\values-sw600dp\" />
+    <Folder Include="Resources\values-sw720dp-land\" />
   </ItemGroup>
 </Project>

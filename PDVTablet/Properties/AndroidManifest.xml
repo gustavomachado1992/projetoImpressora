@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="PDVTablet.PDVTablet">
 	<uses-sdk />
-	<application android:label="PDVTablet"></application>
+	<application android:label="PDVTablet" android:theme="@android:style/Theme.NoTitleBar">
+	<activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:screenOrientation="landscape" />
+	<activity android:name="Main" android:screenOrientation="landscape" />
+	<activity android:name="telaLogin" android:screenOrientation="landscape" />
+		
+	</application>
 </manifest>
