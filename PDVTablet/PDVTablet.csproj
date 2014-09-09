@@ -78,7 +78,13 @@
     <AndroidResource Include="Resources\values-sw720dp-land\dimens.xml" />
     <AndroidResource Include="Resources\drawable\bordaPretaTexto.xml" />
     <AndroidResource Include="Resources\layout\telaCfg.axml" />
-    <AndroidResource Include="Resources\layout\TelaIndex.axml" />
+    <AndroidResource Include="Resources\layout\telaTeste.axml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\layout\telaIndex.axml" />
+    <AndroidResource Include="Resources\drawable\styleEstruturaIndex.xml" />
+    <AndroidResource Include="Resources\drawable\cabecalho.xml" />
+    <AndroidResource Include="Resources\drawable\bordaCabecalho.xml" />
+    <AndroidResource Include="Resources\layout\listaRowProduto.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,7 +33,7 @@ namespace PDVTablet
 		public void logar(){
 			loader.Visibility = ViewStates.Visible;
 			if (editLogin.Text == "adm" && editSenha.Text == "123") {
-				StartActivity (typeof(telaCfg));
+				StartActivity (typeof(telaIndex));
 
 				Finish ();
 

@@ -13,7 +13,8 @@
 	<dimen name="container_CfgmarginRight">5dp</dimen>
 	<dimen name="container_CfgmarginBottom">5dp</dimen>
    <dimen name="container_CfgmarginLeft">5dp</dimen>
-
+     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>
 
 

@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/linearLayout16"
-                android:layout_weight="29" />
+                android:layout_weight="22" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:minWidth="25px"
@@ -190,7 +190,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/linearLayout5"
-                android:layout_weight="25">
+                android:layout_weight="26">
                 <LinearLayout
                     android:orientation="horizontal"
                     android:minWidth="25px"

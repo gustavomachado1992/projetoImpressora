@@ -24,10 +24,6 @@ namespace PDVTablet
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Attribute
 		{
 			
@@ -43,6 +39,12 @@ namespace PDVTablet
 		
 		public partial class Dimension
 		{
+			
+			// aapt resource value: 0x7f040007
+			public const int activity_horizontal_margin = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int activity_vertical_margin = 2130968584;
 			
 			// aapt resource value: 0x7f040001
 			public const int containe_height_cabecalho = 2130968577;
@@ -65,8 +67,8 @@ namespace PDVTablet
 			// aapt resource value: 0x7f040000
 			public const int container_logoBottom = 2130968576;
 			
-			// aapt resource value: 0x7f040007
-			public const int container_mainmarginBottom = 2130968583;
+			// aapt resource value: 0x7f040009
+			public const int container_mainmarginBottom = 2130968585;
 			
 			static Dimension()
 			{
@@ -82,31 +84,40 @@ namespace PDVTablet
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int bordaPretaTexto = 2130837504;
+			public const int bordaCabecalho = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int brasystem = 2130837505;
+			public const int bordaPretaTexto = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int brasystemcortransp = 2130837506;
+			public const int brasystem = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int buttonStyle1 = 2130837507;
+			public const int brasystemcortransp = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int buttonStyle2 = 2130837508;
+			public const int buttonStyle1 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int buttonStyle3 = 2130837509;
+			public const int buttonStyle2 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int icactionsettings = 2130837510;
+			public const int buttonStyle3 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Icon = 2130837511;
+			public const int cabecalho = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int standardNewButton = 2130837512;
+			public const int icactionsettings = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int Icon = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int standardNewButton = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int styleEstruturaIndex = 2130837515;
 			
 			static Drawable()
 			{
@@ -121,113 +132,218 @@ namespace PDVTablet
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060020
-			public const int asdasdasda = 2131099680;
+			// aapt resource value: 0x7f070043
+			public const int asdasdasda = 2131165251;
 			
-			// aapt resource value: 0x7f06001f
-			public const int btnCfg = 2131099679;
+			// aapt resource value: 0x7f070031
+			public const int bt_0 = 2131165233;
 			
-			// aapt resource value: 0x7f060021
-			public const int btnLogin = 2131099681;
+			// aapt resource value: 0x7f07002b
+			public const int bt_1 = 2131165227;
 			
-			// aapt resource value: 0x7f060006
-			public const int btnSalvar = 2131099654;
+			// aapt resource value: 0x7f07002c
+			public const int bt_2 = 2131165228;
 			
-			// aapt resource value: 0x7f060012
-			public const int btnTestar = 2131099666;
+			// aapt resource value: 0x7f07002d
+			public const int bt_3 = 2131165229;
 			
-			// aapt resource value: 0x7f060015
-			public const int btnTestarTexto = 2131099669;
+			// aapt resource value: 0x7f070026
+			public const int bt_4 = 2131165222;
 			
-			// aapt resource value: 0x7f060007
-			public const int btnVoltar = 2131099655;
+			// aapt resource value: 0x7f070027
+			public const int bt_5 = 2131165223;
 			
-			// aapt resource value: 0x7f060002
-			public const int button1 = 2131099650;
+			// aapt resource value: 0x7f070028
+			public const int bt_6 = 2131165224;
 			
-			// aapt resource value: 0x7f060010
-			public const int checkCriticar = 2131099664;
+			// aapt resource value: 0x7f070021
+			public const int bt_7 = 2131165217;
 			
-			// aapt resource value: 0x7f060011
-			public const int checkFiltro = 2131099665;
+			// aapt resource value: 0x7f070022
+			public const int bt_8 = 2131165218;
 			
-			// aapt resource value: 0x7f06000f
-			public const int checkMesas = 2131099663;
+			// aapt resource value: 0x7f070023
+			public const int bt_9 = 2131165219;
 			
-			// aapt resource value: 0x7f06001d
-			public const int editLogin = 2131099677;
+			// aapt resource value: 0x7f070024
+			public const int bt_divi = 2131165220;
 			
-			// aapt resource value: 0x7f06001e
-			public const int editSenha = 2131099678;
+			// aapt resource value: 0x7f070032
+			public const int bt_igual = 2131165234;
 			
-			// aapt resource value: 0x7f060019
-			public const int imageView1 = 2131099673;
+			// aapt resource value: 0x7f070035
+			public const int bt_limpar = 2131165237;
 			
-			// aapt resource value: 0x7f06001b
-			public const int imageView2 = 2131099675;
+			// aapt resource value: 0x7f070029
+			public const int bt_multi = 2131165225;
 			
-			// aapt resource value: 0x7f060000
-			public const int linearLayout1 = 2131099648;
+			// aapt resource value: 0x7f070030
+			public const int bt_ponto = 2131165232;
 			
-			// aapt resource value: 0x7f06001a
-			public const int linearLayout11 = 2131099674;
+			// aapt resource value: 0x7f070036
+			public const int bt_sair = 2131165238;
 			
-			// aapt resource value: 0x7f060005
-			public const int linearLayout12 = 2131099653;
+			// aapt resource value: 0x7f070033
+			public const int bt_soma = 2131165235;
 			
-			// aapt resource value: 0x7f060017
-			public const int linearLayout13 = 2131099671;
+			// aapt resource value: 0x7f07002e
+			public const int bt_subt = 2131165230;
 			
-			// aapt resource value: 0x7f06000e
-			public const int linearLayout14 = 2131099662;
+			// aapt resource value: 0x7f070042
+			public const int btnCfg = 2131165250;
 			
-			// aapt resource value: 0x7f060018
-			public const int linearLayout15 = 2131099672;
+			// aapt resource value: 0x7f070044
+			public const int btnLogin = 2131165252;
 			
-			// aapt resource value: 0x7f060009
-			public const int linearLayout16 = 2131099657;
+			// aapt resource value: 0x7f070011
+			public const int btnSalvar = 2131165201;
 			
-			// aapt resource value: 0x7f060013
-			public const int linearLayout17 = 2131099667;
+			// aapt resource value: 0x7f07001b
+			public const int btnTestar = 2131165211;
 			
-			// aapt resource value: 0x7f06001c
-			public const int linearLayout18 = 2131099676;
+			// aapt resource value: 0x7f07001d
+			public const int btnTestarTexto = 2131165213;
 			
-			// aapt resource value: 0x7f060023
-			public const int linearLayout19 = 2131099683;
+			// aapt resource value: 0x7f070012
+			public const int btnVoltar = 2131165202;
 			
-			// aapt resource value: 0x7f060003
-			public const int linearLayout2 = 2131099651;
+			// aapt resource value: 0x7f07000e
+			public const int button1 = 2131165198;
 			
-			// aapt resource value: 0x7f060004
-			public const int linearLayout3 = 2131099652;
+			// aapt resource value: 0x7f070019
+			public const int checkCriticar = 2131165209;
 			
-			// aapt resource value: 0x7f060016
-			public const int linearLayout4 = 2131099670;
+			// aapt resource value: 0x7f07001a
+			public const int checkFiltro = 2131165210;
 			
-			// aapt resource value: 0x7f060008
-			public const int linearLayout5 = 2131099656;
+			// aapt resource value: 0x7f070018
+			public const int checkMesas = 2131165208;
 			
-			// aapt resource value: 0x7f06000c
-			public const int linearLayout7 = 2131099660;
+			// aapt resource value: 0x7f070004
+			public const int codPoduto = 2131165188;
 			
-			// aapt resource value: 0x7f06000d
-			public const int linearLayout8 = 2131099661;
+			// aapt resource value: 0x7f070007
+			public const int desPoduto = 2131165191;
 			
-			// aapt resource value: 0x7f060014
-			public const int loader = 2131099668;
+			// aapt resource value: 0x7f070040
+			public const int editLogin = 2131165248;
 			
-			// aapt resource value: 0x7f060001
-			public const int textView1 = 2131099649;
+			// aapt resource value: 0x7f070041
+			public const int editSenha = 2131165249;
 			
-			// aapt resource value: 0x7f06000a
-			public const int txtIp = 2131099658;
+			// aapt resource value: 0x7f07003c
+			public const int imageView1 = 2131165244;
 			
-			// aapt resource value: 0x7f060022
-			public const int txtLogin = 2131099682;
+			// aapt resource value: 0x7f07003e
+			public const int imageView2 = 2131165246;
 			
-			// aapt resource value: 0x7f06000b
-			public const int txtPorta = 2131099659;
+			// aapt resource value: 0x7f07000b
+			public const int ladasdas = 2131165195;
+			
+			// aapt resource value: 0x7f070039
+			public const int layoutLista = 2131165241;
+			
+			// aapt resource value: 0x7f070000
+			public const int layoutMain = 2131165184;
+			
+			// aapt resource value: 0x7f070037
+			public const int linearCenter = 2131165239;
+			
+			// aapt resource value: 0x7f07000c
+			public const int linearLayout1 = 2131165196;
+			
+			// aapt resource value: 0x7f07003d
+			public const int linearLayout11 = 2131165245;
+			
+			// aapt resource value: 0x7f070010
+			public const int linearLayout12 = 2131165200;
+			
+			// aapt resource value: 0x7f07003a
+			public const int linearLayout13 = 2131165242;
+			
+			// aapt resource value: 0x7f070017
+			public const int linearLayout14 = 2131165207;
+			
+			// aapt resource value: 0x7f07003b
+			public const int linearLayout15 = 2131165243;
+			
+			// aapt resource value: 0x7f070013
+			public const int linearLayout16 = 2131165203;
+			
+			// aapt resource value: 0x7f07001c
+			public const int linearLayout17 = 2131165212;
+			
+			// aapt resource value: 0x7f07003f
+			public const int linearLayout18 = 2131165247;
+			
+			// aapt resource value: 0x7f070046
+			public const int linearLayout19 = 2131165254;
+			
+			// aapt resource value: 0x7f07000f
+			public const int linearLayout2 = 2131165199;
+			
+			// aapt resource value: 0x7f070002
+			public const int linearLayout3 = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int linearLayout4 = 2131165187;
+			
+			// aapt resource value: 0x7f070006
+			public const int linearLayout5 = 2131165190;
+			
+			// aapt resource value: 0x7f070001
+			public const int linearLayout6 = 2131165185;
+			
+			// aapt resource value: 0x7f070016
+			public const int linearLayout7 = 2131165206;
+			
+			// aapt resource value: 0x7f070005
+			public const int linearLayout8 = 2131165189;
+			
+			// aapt resource value: 0x7f07001e
+			public const int linearLayoutCalc = 2131165214;
+			
+			// aapt resource value: 0x7f070038
+			public const int linearView = 2131165240;
+			
+			// aapt resource value: 0x7f07000a
+			public const int loader = 2131165194;
+			
+			// aapt resource value: 0x7f070008
+			public const int qtdPoduto = 2131165192;
+			
+			// aapt resource value: 0x7f07001f
+			public const int tableLayout1 = 2131165215;
+			
+			// aapt resource value: 0x7f070020
+			public const int tableRow2 = 2131165216;
+			
+			// aapt resource value: 0x7f070025
+			public const int tableRow3 = 2131165221;
+			
+			// aapt resource value: 0x7f07002a
+			public const int tableRow4 = 2131165226;
+			
+			// aapt resource value: 0x7f07002f
+			public const int tableRow5 = 2131165231;
+			
+			// aapt resource value: 0x7f070034
+			public const int tableRow6 = 2131165236;
+			
+			// aapt resource value: 0x7f07000d
+			public const int textView1 = 2131165197;
+			
+			// aapt resource value: 0x7f070014
+			public const int txtIp = 2131165204;
+			
+			// aapt resource value: 0x7f070045
+			public const int txtLogin = 2131165253;
+			
+			// aapt resource value: 0x7f070015
+			public const int txtPorta = 2131165205;
+			
+			// aapt resource value: 0x7f070009
+			public const int valPoduto = 2131165193;
 			
 			static Id()
 			{
@@ -243,16 +359,22 @@ namespace PDVTablet
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int listaRowProduto = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int telaCfg = 2130903041;
+			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int TelaIndex = 2130903042;
+			public const int telaCfg = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int telaLogin = 2130903043;
+			public const int telaIndex = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int telaLogin = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int telaTeste = 2130903045;
 			
 			static Layout()
 			{
@@ -270,6 +392,15 @@ namespace PDVTablet
 			// aapt resource value: 0x7f050000
 			public const int app_name = 2131034112;
 			
+			// aapt resource value: 0x7f050009
+			public const int cinco = 2131034121;
+			
+			// aapt resource value: 0x7f050007
+			public const int divisao = 2131034119;
+			
+			// aapt resource value: 0x7f05000d
+			public const int dois = 2131034125;
+			
 			// aapt resource value: 0x7f050003
 			public const int firstButton = 2131034115;
 			
@@ -279,12 +410,76 @@ namespace PDVTablet
 			// aapt resource value: 0x7f050002
 			public const int firstTexto2 = 2131034114;
 			
+			// aapt resource value: 0x7f050012
+			public const int igual = 2131034130;
+			
+			// aapt resource value: 0x7f050014
+			public const int limpar = 2131034132;
+			
+			// aapt resource value: 0x7f05000b
+			public const int multi = 2131034123;
+			
+			// aapt resource value: 0x7f050006
+			public const int nove = 2131034118;
+			
+			// aapt resource value: 0x7f050005
+			public const int oito = 2131034117;
+			
+			// aapt resource value: 0x7f050010
+			public const int ponto = 2131034128;
+			
+			// aapt resource value: 0x7f050008
+			public const int quatro = 2131034120;
+			
+			// aapt resource value: 0x7f050015
+			public const int sair = 2131034133;
+			
+			// aapt resource value: 0x7f05000a
+			public const int seis = 2131034122;
+			
+			// aapt resource value: 0x7f050004
+			public const int sete = 2131034116;
+			
+			// aapt resource value: 0x7f050013
+			public const int soma = 2131034131;
+			
+			// aapt resource value: 0x7f05000f
+			public const int subt = 2131034127;
+			
+			// aapt resource value: 0x7f05000e
+			public const int tres = 2131034126;
+			
+			// aapt resource value: 0x7f05000c
+			public const int um = 2131034124;
+			
+			// aapt resource value: 0x7f050011
+			public const int zero = 2131034129;
+			
 			static String()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int AppBaseTheme = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int AppTheme = 2131099649;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
